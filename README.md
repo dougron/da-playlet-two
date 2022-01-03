@@ -1,6 +1,7 @@
 This project from 2015 is an experiment in the combination of a multipart music generation algorithm modelled as a pipeline combined with a graphic representation that links elements in the pipeline based on proximity
 
 Music generation processes are divided up as follows
+	
 	1. Resources - structural information such as chord progressions and accent templates
 	2. Generators - generate basic instrumental parts
 	3. Processors - add extra notes or controller informations to a part
@@ -36,10 +37,12 @@ Music generation processes are divided up as follows
 …. and being an experiment, these are reflections on the project:
 
 Failures:
+	
 	1. The UI did not seem to be heading in the minimalist direction that I expected. This might have been circumvented by better mockups early in the design process. 
 	2. In general this project was very informally approached, so design goals and intentions where not clearly articulated early on. I realize in retrospect I was looking for a live performance tool, but what emerged would have been better suited to a personal creative interaction (with a more substantial pallete of options, on a personal computer) or a toy/game (with fewer options, a simplified UI and aimed at a mobile device). Neither of these approaches interested me at the time, so I moved on.
 	
 Successes:
+	
 	1. I learned graphics programming in Java.
 	2. I reused music generation code from a previous project, so even though at this stage I was a beginner in terms of understanding common code conventions, I managed to apply the concept of reusability and extensibility.
 
